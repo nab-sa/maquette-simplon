@@ -566,7 +566,7 @@ input::placeholder {
     }*/
 
     ul {
-        grid-column: 3 / 22;
+        grid-column: 1 / 22;
         grid-row: 3;
     }
 
