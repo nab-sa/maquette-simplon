@@ -1,0 +1,597 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #F0F5F8;
+}
+
+.container {
+    width: 100%;
+    
+    
+}
+
+button {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h2 {
+    padding: 2.4rem 0 1.1rem 1.1rem;
+}
+
+
+#nos-formations, .cfa > button, .cfa-content > button  {
+    background-color: #CE0033;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+}
+
+/************* NAVBAR *************/
+
+.navbar-mobile {
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+    background-color: #F0F5F8;
+}
+
+.navbar-desktop {
+    display: none;
+}
+
+/************* NAVBAR *************/
+
+/************* MAIN *************/
+
+h1 {
+    color: #CE0033;
+    font-size: 1.3rem;
+
+}
+
+
+main {
+    padding: 1.6rem 1.6rem 1.6rem 1rem ;
+    background-color: #fff;
+}
+
+main p {
+    margin-bottom: 1.5rem;
+}
+
+main > img {
+    display: none;
+}
+
+.button-section {
+    margin-top: 3rem;
+}
+
+.button-section > button {
+    margin-right: 1.4rem;
+    width: 100%;
+    margin-bottom: 0.9rem;
+}
+
+button {
+    text-decoration: none;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 0.8rem;   
+}
+
+
+#questions {
+    border: 2px solid #CE0033;
+    color: #CE0033;
+    background-color: #fff;
+}
+
+/************* MAIN *************/
+
+/************* NOTRE IMPACT *************/
+
+.notre-impact > div {
+    background-color: #fff;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.notre-impact {
+    width: 93%;
+    margin: 0 auto;
+    display: grid;
+    grid-template: repeat(2, 50%) / repeat(2, 50%) ;
+    gap: 0.2rem;
+}
+
+
+#bilan {
+    color: #fff;
+    background-color: #CE0033;
+}
+
+#bilan > * {
+    padding: 0.5rem 0;
+}
+
+.flex span {
+    color: #CE0033;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.stats img {
+    align-self: end;
+}
+
+/************* NOTRE IMPACT *************/
+
+/************* TEMOIGNANES *************/
+
+i {
+    color: #CE0033;
+    font-size: 2rem;
+}
+
+.carousel {
+    width: 100%;
+    padding: 1.8rem 1rem;
+    background-color: #fff;   
+}
+
+.carousel-left > p:nth-child(2) {
+    margin: 1rem 0 1.5rem 0;   
+}
+
+.carousel-left > p:nth-child(3) {
+    font-weight: 700;
+}
+
+.carousel-right {
+    font-size: 1.5rem;
+}
+
+.carousel-right > img[src="./images/temoignages-1-img.png"] {
+    display: none;
+}
+
+/************* TEMOIGNANES *************/
+
+/************* APPRENTIS SIMPLON *************/
+
+.apprenti-desktop {
+    display: none;
+}
+
+.cfa {
+    background-color: #fff;
+    padding-bottom: 1.3rem;
+}
+
+.cfa > img {
+    padding: 0.75rem;
+}
+
+.cfa-content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cfa-content > p:nth-child(1) {
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+}
+
+.cfa-content > p:nth-child(2) {
+    margin-bottom: 1.8rem;
+}
+
+/************* APPRENTIS SIMPLON *************/
+
+/************* ILS NOUS SOUTIENNENT *************/
+
+.partenaires-desktop {
+    display: none;
+}
+
+.partenaires-mobile {
+    background-color: #fff;
+    margin-bottom: 3rem;
+}
+
+.partenaires-carousel {
+    width: 100%;
+    padding: 1rem 0 1rem 3rem;
+}
+
+
+.partenaires-carousel-navigation {
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.red-box-arrow {
+    width: 3rem;
+    min-height: 3rem;
+    background-color: #CE0033;
+    align-self: flex-end;
+}
+
+.fa-turn-up {
+    color: #fff;
+    rotate: 90deg;
+}
+
+/************* ILS NOUS SOUTIENNENT *************/
+
+/************* FOOTER *************/
+
+footer {
+    background-color: #CE0033;
+    color: #fff;
+    
+}
+
+.footer-container {
+    margin: 2rem 0 0 0;
+    padding: 2rem 0 2rem 1.3rem;
+}
+
+footer > h3 {
+    padding-top: 2rem;
+}
+
+footer > p {
+    margin-bottom: 1rem;
+}
+
+.footer-list {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 0.7rem;
+}
+
+.newsletter {
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+}
+
+input {
+    width: 85%;
+    height: 2rem;
+    border-radius: 0px;
+    border: 1px solid #fff;
+    background-color: #CE0033;
+    outline: none;
+    color: #fff;
+    padding-left: 0.8rem;
+}
+
+input::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
+[src="./images/footer-img.png"] {
+    padding-bottom: 2rem;
+    width: 65%;
+    margin: 2rem auto 0 auto;
+}
+
+[src="./images/reseaux.png"] {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.footer-images {
+    flex-direction: column;
+    padding-bottom: 2rem;
+
+}
+
+/************* FOOTER *************/
+
+@media (min-width: 1000px) {
+    .container {
+        width: 85%;
+        margin: 0 auto;
+    }
+    
+/************* NAVBAR *************/
+
+    .navbar-mobile {
+        display: none;
+    }
+
+    .navbar-desktop {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        justify-content: space-between;
+        padding: 1rem 0;
+    }
+
+    .navigation {
+        width: 70%;
+        justify-content: space-around;
+    }
+
+    .sub-section > img {
+        width: 0.6rem;
+        height: 0.5rem;
+        margin-left: 0.2rem;
+    }
+    
+/************* NAVBAR *************/
+
+    .line {
+        background-color: #fff;
+        margin: 1.5rem 0;
+        height: 1px;
+        width: 100%;
+    }
+
+/************* MAIN *************/
+
+    main {
+        display: flex;
+        gap: 1.2rem;
+        padding: 1.6rem 0 1.6rem 1.6rem;
+    }
+
+    main > img {
+        display: block;
+    }
+
+    
+    .button-section {
+        margin-top: 4.3rem;
+        display: flex;
+    }
+
+    .button-section > button {
+        margin-right: 1.4rem;
+    }
+
+    button {
+    text-decoration: none;
+    display: block;
+    width: 45%;
+    border-radius: 4px;
+    padding: 0.8rem;   
+    }
+
+    h1 {
+        margin-top: 3.4rem;
+        font-size: 2rem;
+    }
+
+/************* MAIN *************/
+
+/************* NOTRE IMPACT *************/
+
+    .notre-impact, .notre-impact > div {
+        display: flex;
+        width: 65%;
+        gap: 0.8rem;
+        justify-content: center;
+    }
+
+    .notre-impact > div > img {
+        align-self: flex-end;
+    } 
+    
+    .flex span {
+    color: #CE0033;
+    font-weight: 700;
+    font-size: 3rem;
+    }
+
+/************* NOTRE IMPACT *************/
+
+/************* TEMOIGNAGES *************/
+
+    .carousel {
+        display: flex;
+        padding: 3rem;
+        gap: 3rem;
+    }
+
+    .carousel > div {
+        flex-direction: column;
+    }
+
+    .carousel-left {
+        width: 70%;
+    }
+    
+    .carousel-left > p:nth-child(2) {
+        margin-bottom: 1.2rem;
+        line-height: 1.5;
+    }
+
+    .carousel-right {
+    
+        justify-content: flex-end;
+    }
+
+    .carousel-right > img[src="./images/temoignages-1-img.png"] {
+    display: block;
+    }
+
+    .carousel-command {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .carousel-command-numbers > p {
+        margin-right: 0.6rem;
+    }
+
+    .carousel-command-numbers > p:nth-child(1) {
+        font-weight: 700;
+    }
+    
+/************* TEMOIGNAGES *************/
+
+/************* APPRENTI SIMPLON *************/
+
+    .apprenti-mobile {
+        display: none;
+    }
+
+    
+    .apprenti-desktop {
+        display: block;
+    }
+
+    .cfa {
+        background-image: url(./images/img-apprentis.png);
+        background-size: cover;
+        height: 23.6rem;
+        margin: 0;
+        padding: 0;
+        background-color: transparent;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+
+    .cfa-content {
+        width: 37%;
+        background-color: #fff;
+        padding: 1.4rem;
+        margin: 0;
+    }
+
+    .cfa-content > p:nth-child(1) {
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+        font-size: 1.2rem;
+    }
+    
+    .cfa-content > p:nth-child(2) {
+        margin-bottom: 1.8rem;
+    }
+
+    .cfa-content > button {
+        width: 40%;
+        z-index: 1;
+    }
+
+/************* APPRENTI SIMPLON *************/
+
+/************* ILS NOUS SOUTIENNENT *************/
+
+    .partenaires-mobile {
+        display: none;
+    }
+
+    .partenaires-desktop {
+        width: 100%;
+        display: block;
+    }
+
+    .partenaires-carousel {
+        background-color: #fff;
+    }
+
+    .partenaires-carousel > img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .partenaires-carousel-navigation {
+        padding: 0;
+        width: 100%;
+        
+    }
+
+    .red-box-arrow {
+        align-self: flex-end;
+    }
+
+/************* ILS NOUS SOUTIENNENT *************/
+
+/************* FOOTER *************/
+
+    .footer-container {
+        margin-top: 6rem;
+        display: grid;
+        grid-template-columns: repeat(22, 1fr);
+        grid-template-rows: 2fr 2fr 1fr;
+        padding: 2rem 0 0 1.3rem;
+    }
+
+    .footer-list {
+        flex-direction: row;
+    }
+
+     .newsletter-section-desktop {
+        grid-column: 13 / 18;
+        grid-row: 1;
+    }
+
+    .newsletter-section-desktop > * {
+        margin-bottom: 0.3rem;
+    }
+
+    /*.footer-images {
+        grid-column: 4 / span 2;
+        grid-row: 1;
+    }*/
+
+    ul {
+        grid-column: 3 / 22;
+        grid-row: 3;
+    }
+
+    footer li {
+        padding: 0 1rem;
+        border-right: 2px solid #fff;
+        height: fit-content;
+        font-size: 0.8rem;
+    }
+
+    [src="./images/footer-img.png"] {
+        grid-column: 8 / 11;
+        grid-row: 1;
+        width: 16rem;
+        margin: 0;
+    }
+
+    [src="./images/reseaux.png"] {
+        grid-column: 10 / 14;
+        grid-row: 2;
+        width: 20rem;
+        margin-top: 1.5rem;
+        
+    }
+
+/************* FOOTER *************/
+     
+}
